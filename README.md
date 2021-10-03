@@ -3,20 +3,25 @@ My eighteenth repository
 
 <!DOCTYPE html>
 <html>
+<head>
+<style>
+div {
+  border: 1px solid black;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+  background-color: lightblue;
+}
+</style>
+</head>
 <body>
 
-<h2>JavaScript Functions</h2>
+<h2>Using individual margin properties</h2>
 
-<p>This example calls a function which performs a calculation, and returns the result:</p>
-
-<p id="demo"></p>
-
-<script>
-function myFunction(p1, p2) {
-  return p1 * p2;
-}
-document.getElementById("demo").innerHTML = myFunction(4, 3);
-</script>
+<div>This div element has a top margin of 100px, a right margin of 150px, a bottom margin of 100px, and a left margin of 80px.</div>
 
 </body>
 </html>
+
+
